@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float32-exponent-bias",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The bias of a single-precision floating-point number's exponent.",
   "license": "Apache-2.0",
   "author": {
