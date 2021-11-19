@@ -20,7 +20,7 @@ limitations under the License.
 
 # Bias
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > The bias of a [single-precision floating-point number's][ieee754] exponent.
 
@@ -82,8 +82,8 @@ console.log( FLOAT32_EXPONENT_BIAS );
 
 ## See Also
 
--   [`@stdlib/constants/float16/exponent-bias`][@stdlib/constants/float16/exponent-bias]: the bias of a half-precision floating-point number's exponent.
--   [`@stdlib/constants/float64/exponent-bias`][@stdlib/constants/float64/exponent-bias]: the bias of a double-precision floating-point number's exponent.
+-   <span class="package-name">[`@stdlib/constants/float16/exponent-bias`][@stdlib/constants/float16/exponent-bias]</span><span class="delimiter">: </span><span class="description">the bias of a half-precision floating-point number's exponent.</span>
+-   <span class="package-name">[`@stdlib/constants/float64/exponent-bias`][@stdlib/constants/float64/exponent-bias]</span><span class="delimiter">: </span><span class="description">the bias of a double-precision floating-point number's exponent.</span>
 
 </section>
 
@@ -134,8 +134,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float32-exponent-bias/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float32-exponent-bias?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/constants-float32-exponent-bias.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-float32-exponent-bias/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
