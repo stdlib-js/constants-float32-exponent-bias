@@ -24,32 +24,30 @@ limitations under the License.
 
 > The bias of a [single-precision floating-point number's][ieee754] exponent.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float32-exponent-bias
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FLOAT32_EXPONENT_BIAS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-bias@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-bias@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FLOAT32_EXPONENT_BIAS;
-})();
-</script>
+var FLOAT32_EXPONENT_BIAS = require( '@stdlib/constants-float32-exponent-bias' );
 ```
 
 #### FLOAT32_EXPONENT_BIAS
@@ -73,21 +71,11 @@ var bool = ( FLOAT32_EXPONENT_BIAS === 127 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-bias@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FLOAT32_EXPONENT_BIAS = require( '@stdlib/constants-float32-exponent-bias' );
 
 console.log( FLOAT32_EXPONENT_BIAS );
 // => 127
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -174,6 +162,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float32-exponent-bias/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float32-exponent-bias/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float32-exponent-bias/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float32-exponent-bias/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float32-exponent-bias/main/LICENSE
 
@@ -181,9 +170,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float16/exponent-bias]: https://github.com/stdlib-js/constants-float16-exponent-bias/tree/umd
+[@stdlib/constants/float16/exponent-bias]: https://github.com/stdlib-js/constants-float16-exponent-bias
 
-[@stdlib/constants/float64/exponent-bias]: https://github.com/stdlib-js/constants-float64-exponent-bias/tree/umd
+[@stdlib/constants/float64/exponent-bias]: https://github.com/stdlib-js/constants-float64-exponent-bias
 
 <!-- </related-links> -->
 
