@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT32_EXPONENT_BIAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-bias@esm/index.mjs';
+import FLOAT32_EXPONENT_BIAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-bias@v0.0.8-esm/index.mjs';
 ```
 
 #### FLOAT32_EXPONENT_BIAS
@@ -61,7 +61,7 @@ var bool = ( FLOAT32_EXPONENT_BIAS === 127 );
 <body>
 <script type="module">
 
-import FLOAT32_EXPONENT_BIAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-bias@esm/index.mjs';
+import FLOAT32_EXPONENT_BIAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-exponent-bias@v0.0.8-esm/index.mjs';
 
 console.log( FLOAT32_EXPONENT_BIAS );
 // => 127
