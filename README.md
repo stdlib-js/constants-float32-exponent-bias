@@ -144,8 +144,8 @@ Macro for the bias of a [single-precision floating-point number's][ieee754] expo
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float16/exponent-bias`][@stdlib/constants/float16/exponent-bias]</span><span class="delimiter">: </span><span class="description">the bias of a half-precision floating-point number's exponent.</span>
--   <span class="package-name">[`@stdlib/constants/float64/exponent-bias`][@stdlib/constants/float64/exponent-bias]</span><span class="delimiter">: </span><span class="description">the bias of a double-precision floating-point number's exponent.</span>
+-   <span class="package-name">[`@stdlib/constants-float16/exponent-bias`][@stdlib/constants/float16/exponent-bias]</span><span class="delimiter">: </span><span class="description">the bias of a half-precision floating-point number's exponent.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/exponent-bias`][@stdlib/constants/float64/exponent-bias]</span><span class="delimiter">: </span><span class="description">the bias of a double-precision floating-point number's exponent.</span>
 
 </section>
 
